@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Conversor de moeda</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./img/_5047a21e-94fb-4686-97be-1f280d2554eb 1.png" id="logo" alt="logo"/>
+    </header>
+
+    <div class="body_principal">
+      <p>Conversor de moedas</p>
+
+      <div class="container">
+        <input type="number" id="valorInicial" placeholder="Digite o valor" />
+        <select id="moedaInicial">
+          <option value="">Moeda inicial</option>
+          <option value="BRL">BRL</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="USD">USD</option>
+          <option value="CNY">CNY</option>
+          <option value="AOA">AOA</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+          <option value="CHF">CHF</option>
+        </select>
+
+        <select name="select2" id="moedaConvertida">
+          <option disabled selected hidden>Moeda convertida</option>
+          <option value="BRL">BRL</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="USD">USD</option>
+          <option value="CNY">CNY</option>
+          <option value="AOA">AOA</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+          <option value="CHF">CHF</option>
+        </select>
+
+        <button id="btnResultado">Converter</button>
+      </div>
+      <div id="resultado"></div>
+    </div>
+
+    <footer class="footerPrincipal">
+
+      <div class="textoFooter">
+        <p id="tituloFooter">Desenvolvedores</p>
+        <p>Emerson Vieira <br />Livia Bello</p>
+      </div>
+
+      <div class="imagens">
+        <a href="https://www.linkedin.com/in/emerson-vieira-de-oliveira-4507a0293/">
+          <img src="./img/logotipo-do-linkedin 1.png" alt="logo_Linkedin" />
+        </a>
+        <a href="https://github.com/Emerson757">
+          <img src="./img/placa-do-github 1.png" alt="logo_github" />
+        </a>
+        <a href="https://www.linkedin.com/in/livia-bello-da-guarda-ferreira-635936260">
+          <img src="./img/logotipo-do-linkedin 1.png" alt="logo_Linkedin" />
+        </a>
+        <a href="https://github.com/liviaBELLO">
+          <img src="./img/placa-do-github 1.png" alt="logo_github" />
+        </a>
+      </div>
+      
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
