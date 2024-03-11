@@ -18,4 +18,23 @@ Primeiramente digite o valor que irá ser convertido
 ## 2ºPasso <br>
 
 <img width="389" alt="3print" src="https://github.com/Emerson757/conversor-de-moeda/assets/142238638/afa93d31-de7c-4460-8be2-e87a2dba92ec">
+<br>
+Em seguida escolha na seletora a moeda que irá ser convertida
+
+## 3ºPasso <br>
+
+<img width="327" alt="4print" src="https://github.com/Emerson757/conversor-de-moeda/assets/142238638/4f5dfa65-5be0-4070-83d1-ca372ea6d342"> <br>
+Agora irá ser escolhido o tipo de moeda que o usuario quer convertido
+
+
+## 4°Passo <br>
+<img width="483" alt="6print" src="https://github.com/Emerson757/conversor-de-moeda/assets/142238638/ee91ad51-07d9-47ce-a005-f66be3b021fb"> 
+<br> 
+Depois de preencher os formularios acima , o usuario deve apenas clicar no botão converter.
+
+## 5ºPasso <br>
+
+<img width="430" alt="7print" src="https://github.com/Emerson757/conversor-de-moeda/assets/142238638/3ec24d43-0959-4582-98fa-cfed15d107f4">
+<br>
+O resultado irá aparecer em um card abaixo do formulario dinâmicamente
 
